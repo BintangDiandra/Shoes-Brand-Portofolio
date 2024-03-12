@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>JWSpatu</title>
+  <link rel="icon" href="Image/Icon Website.jpg">
+  <script src="javascriptnavbar.js"></script>
+  <link href="input.css" rel="stylesheet" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.0/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<!-- Disclaimer !!! This Develop Mode -->
+<!-- For Development Portofolio And Education Purpose -->
+<!-- Made By Bintang Diandra Putra Without Figma Designer UI/UX -->
+
+
+<body class="">
+  <header class="flex flex-wrap"> <!-- Navbar  -->
+    <nav class="lg::flex md:flex justify-between fixed w-full shadow-blue-200 z-30">
+      <div
+        class="bg-white border border-[#72d62f] border-double shadow-2xl rounded lg:flex md:flex justify-between fixed w-full lg:px-16 text-black">
+        <div class="flex flex-wrap justify-between">
+          <h2 class="topnav px-3 py-3 text-3xl font-extrabold cursor-pointer " id="Icon"><i>JWSpatu</i></h2>
+          <input class="" type="checkbox" id="hamburger" class="">
+          <label for="hamburger" class="hamburger navbar-burger mx-4 transition duration-300 hover:scale-105">
+            <span class="line lg:hidden md:hidden my-1"></span>
+            <span class="line lg:hidden md:hidden my-1 mx-2"></span>
+            <span class="line lg:hidden md:hidden my-1"></span>
+          </label>
+        </div>
+        <ul
+          class="navbar-menu navbar-close opacity-100 md:w-auto md:pl-0 w-left-0 md:flex items-center justify-between px-4 gap-x-2 hidden relative text-center">
+          <li class="my-2">
+            <a href="index.html" class="hover:text-red-900 lg:px-3 lg:py-5 md:px-3 md:py-5 font-bold">Home</a>
+          </li>
+          <li class="my-2">
+            <a href="index.html" class="hover:text-red-900 lg:px-3 lg:py-5 md:px-3 md:py-5 font-bold">About</a>
+          </li>
+          <li class="my-2">
+            <a href="index.html" class="hover:text-red-900 lg:px-3 lg:py-5 md:px-3 md:py-5 font-bold">News</a>
+          </li>
+          <li class="my-2">
+            <a href="index.html" class="hover:text-red-900 lg:px-3 lg:py-5 md:px-3 md:py-5 font-bold">Pricing</a>
+          </li>
+          <li class="my-2">
+            <a href="index.html" class="hover:text-red-900 lg:px-3 lg:py-5 md:px-3 md:py-5 font-bold">Setting</a>
+          </li>
+          <li class="my-2">
+            <button onclick="toggleMode()" class="text-black py-3 animate-pulse"><svg xmlns="http://www.w3.org/2000/svg" width="24"
+                height="24" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1) transform msFilter">
+                <path
+                  d="M12 11.807A9.002 9.002 0 0 1 10.049 2a9.942 9.942 0 0 0-5.12 2.735c-3.905 3.905-3.905 10.237 0 14.142 3.906 3.906 10.237 3.905 14.143 0a9.946 9.946 0 0 0 2.735-5.119A9.003 9.003 0 0 1 12 11.807z">
+                </path>
+              </svg></button> <!-- Dark Mode  -->
+          </li>
+          <li class="flex 2xl:xl:flex-wrap justify-end space-x-3">
+            <a href=""><img src="Image/CartITEM.svg"
+                class="py-2 transition border border-[#00e663] bg-[#9df200] rounded-xl px-4 container" Cart alt="cartItem"></a>
+            <a href=""><img src="Image/SearhBar.svg"
+                class="px-4 transition border border-[#00e663] bg-[#9df200] rounded-xl py-2 container" alt="searchBar"></a>
+          </li><br>
+        </ul>
+      </div>
+      </div>
+    </nav>
+  </header> <br>
+  <section class="pt-8 cursor-default"><br> <!-- Contoh Flex Warp [Widght kedua harus sama contoh w-1/2 dan isinya harus w-1/2]-->
+    <div class="flex flex-wrap">
+      <h3 class="px-8 lg:px-36 md:px-36 2xl:[50px] md:my-20 font-extrabold text-2xl w-1/2">
+        <b>A testing Developer <br>
+          Website for a brand shoes shop</b>
+      </h3>
+      <p class="lg:py-[2px] px-8 font-bold md:w-1/2"><br>
+        <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro adipisci officia dolores culpa explicabo
+          debitis
+          corrupti quo qui rem natus cumque quidem quisquam dolorem quam perferendis earum eligendi, soluta nulla sunt
+          minus molestias illo repudiandae asperiores itaque? Quasi porro placeat eaque debitis. Consectetur laborum
+          consequatur quo iure nemo minus in odio quas temporibus dolorem officia assumenda itaque sequi, distinctio
+          neque
+          earum ipsum qui minima voluptates. Perspiciatis incidunt quasi possimus consequuntur delectus pariatur
+          temporibus soluta odit!</i>
+      </p>
+    </div>
+  </section><br>
+  <div class="grid lg:grid-cols-3 md:grid-cols-2 sm:grid-cols-1 gap-4 space-x-6 space-y-5 mx-10 strect"><!-- Card -->
+    <div class="card w-75 bg-base-100 shadow-xl z-10 mt-5 mx-4">
+      <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="card w-75 bg-base-100 shadow-xl z-10">
+      <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="card w-75 bg-base-100 shadow-xl z-10">
+      <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="card w-75 bg-base-100 shadow-xl z-10">
+      <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <a href=""></a><button class="btn btn-primary">Buy Now</button></a>
+        </div>
+      </div>
+    </div>
+    <div class="card w-75 bg-base-100 shadow-xl z-10">
+      <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <div class="card w-75 bg-base-100 shadow-xl z-10">
+      <figure><img src="https://daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" /></figure>
+      <div class="card-body">
+        <h2 class="card-title">Shoes!</h2>
+        <p>If a dog chews shoes whose shoes does he choose?</p>
+        <div class="card-actions justify-end">
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+    </div>
+  </div><br>
+  <div class="py-3"> <!-- Carousel --> 
+    <h3 class="text-3xl font-extrabold text-center text-[#72d62f]">This our product slide want to see more product !
+    </h3>
+  </div><br>
+  <div class="carousel rounded-box mx-14">
+    <div class="carousel-item w-76 h-80">
+      <img
+        src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUQExISFRUXEhYWFRUXFhUWFRUYFhUXGBYVFhgYICggGBonGxUVIjEiJSorLi4uGB80ODMtNygtLisBCgoKDg0OGhAQGi0hICYtLS0tLSsuLS0tLSsrLS0tLSstLTUtLS0tLi0tLS0tLS4uLTUtNS0rKy0vLS03LS0tLf/AABEIAOEA4QMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABgIDBAUHCAH/xABDEAACAQICBwQGBwYEBwAAAAAAAQIDEQQhBQYSMUFRYRNxgZEHIjJCUqEUYnKCwdHwI1NjseHxFkOSkyQzc6LCw9L/xAAZAQEBAQEBAQAAAAAAAAAAAAAAAQIDBAX/xAAsEQEBAAIBAgMFCQEAAAAAAAAAAQIRAxIhMUFRBGFxodEFIzIzQlKRsfAT/9oADAMBAAIRAxEAPwDtIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABGcNrM5aTqYBqOwoeo1faclCM5Xd7Ws5L7o0JMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABZxeJhShKrOSjCEXKTfBJXYGBrNpqGDw868t6VoR+Kb9mP4vomcL0RpudLG4fEyldvEU1OT4qrNRqN/dnIva660Tx1fafq043VODfsq+92958fLgRfFQc4ygspW9Wz4rNeNtx01qJXqsGs1Z0vDGYWjioO6qU4t/Vla04vqpJp9xszmoAABjrGR7R0s7pRd7Zeteyvz9V9/C7TtkHn+trPisNj61eUnOfbTp1ac5SUZQjNrYtwil7LW7JrrZNo9AAi+qeumGxjVGNT9rsbShKym0vaTXGUeaums17yjKCKAAAAAAAAAAAAAAAAAAAAAAAAHOvTDpjYpQwkXnU9edt+zH2V4yTf3DoNWtGPtNL9cjg3pTx0p46opbUY7MFDLNxS9rub2/MYZ4dfTub9PNem62h9ab32iu98SlbT3bG0uUspL8GY843/AMuTu7u7e79cUKUJcKSv7j2t/wBW/HuZ1qJjqJrjUwFSVk5UpyvVot8dzqU37s7LulbO3tLuOg9YcNi4qVCrGTtnBtKpHvjv8VlyZ5jUXxp7K45v1X+BejKos0877801yd42ZmxHqsHmOGs+kKassViYrl29W3zbLFfWfSE9+LxD6dvUfyuTpV6inJJXbSXN5I4P6YqVN47tKEqc+0ox7TYlF2qRco3k75NwUMvq9SB18VUqO86jm/rNt/8AcymN+MpLyS5qzS6fIsiNlgVOlKNWMnGpBpwcJWlGXPajmssvE9Cai6d+l4SnOck60YqNZZKW0sttxVtlSttcs7cDzTKs6bveTXDiv7mx0NrRXwdaNehlLNesm4uL3xkt7ju48EW6sTvHqYES1E14p6Ri4um6VaMbzp32otZJzhLjG7W/PNEtObQAAAAAAAAAAAAAAAAAABiTxibtHz7t+Rcx1dU6c6julGEpOycnaMW3ZLNvLciF6C07GdOE73i4pqSyupLiWRKlFahGpZyTvbJ5p9yZqtM6r0cVDYqrbXut+rOHWE45rutnxuZdDFxe5ptbt7fc7l9Ve/yjk+Rwz9l4s8uuzV9Z2rePLlJrfZw/Wz0bYnC3qUlLEU7cP+bFfWgsprrHxSIMoQ+B2+3mnzTtu8z1Z9JW5rLk1l3ZEN1v1HwOKfbNOlOW+rBK9+Hax3TXXKXUmfLlwTeffH1858fr8msZM7qeLh1KmuNL7f7ReE0rfy8jIjSfGlL61pLdwll/M3GsHo/xmEvPs4VqSu1VpKUsuU4L1orrZpcyM03HJ2ptcMp7vgbXy3now5Mc5vG7YuNnizpKS4VY89zV+HgzHm0/h784PpnuyeR9puPJcspzi7L3c/eRdlLjdv7ylfqbRiSX9pJO3ivFFUbLPNLvy6byitVW5b+S/FiOFU/ak+5WtbLk+TGk2oqY9ezBXfMu0NqOcrS6LgrcOfAv0sLCHDPul88unzL8YcOPjbjx4PL59UzUxS1l6oa2zwGJVenS2lsyjKDulJStxzs04xfh1O9ai64Q0lSlNU3SqQ2dum3tJKV9lxlZXXqvelbyPO8524Xzz7u7mbnUnXiej6spRo9pCcVGUXtReTumpJOzzfAzlFlelgarVrT1LG0I4ilezylF+1CSSbjK3evBo2pzUAAAAAAAAAAAAAAAAaOPQwTwGLq6Pd1Td62EfB0pP1qafOEnbnZpnYTQa5atRx1FRUuzrU5dph6vwTtaz5wkspLiu5Fl0VF6WJMulj2uvR5kbwONl2ksNXh2OJgvXpPiv3lN+/TfBrxNipM3phIKWLUt2T6OzvwduJejWUk4PdJWfju7mRyFVrM2OHxKlv3/AK8zOWMyll8Fl13jGjjq9CThZtJ5ZOz6po12mtVaGPvOWGq0ar/zaS9r/qU3ZT78pdSUdq7bvExqlWfFv5/kfJ4fsr/jlvj5LPc9vJ7ZM5rLCONawaoYvCbUmu1prfUg6l4x4drTfr0++zXVmkp108nx4/juz7zvyxbeUs0t2dmvstey+4hmtWpOHrPbpuNGpK7jUUUqVSW9xqwj7EvrR33u0z2Z8+fB+b3x/dPL4zy+P9OOOE5PwePp9HMatO12t18+j3/2KVLv78+q43XGJl6QwNfCVOyrwcH7rteM19WSylHu3dGYs6PGPllddVuutx68M5lN43cccsbL3VwmunhsZeTXxP58y7B33p+X5yfOXzMeHf139/NMuwj1+UeT6dX5I6Msh55vf1svOz6/3KZt2bSu8sn+PhuCpv8AWVvJFSXPwt/XerJfrdUbHVfXPGYKqpUYzdNyTnRbvGorWat7srbpLPJb1k/Q2rOsFHHUI4ii3Z5ShK23TlbOMkuOZ5uo7Kd8r35Nvj+Rn6B1lxGErKdJ1ILajKaTbhVXFTW575b918rGMsGpk9MAwdD6Xo4qmq1GalF7+Eov4ZLfFmccmgAAAAAAAAAAAAAAAGn1k1Zw2OgoV4Pajd06sHsVqTfvU5rNcMtztmiD43VvSeEvsbGPordmqOKir8U/UqWXJps6gCy6HOsDg61Sl2qw9eDW+FWnKE102fe+7cpq0XFuLTTWTOjkc1n1W+lSVWniq+Hqxhspw2Z0mrtrbpTVpPPfdPqambPSjkarXEq7aXMx8VorSWGznh6eLgvfwz2KtuboVHm+kZMzNDU3iYOpSp1ElJxkqkJUpRlHfFxmk79xrcTSjtL7xUp7UXB+y/k+DDhYrpysTPCZS42blMcrjdxpcRSUouhXpxq0/hl8nF8H1VmiKaS1Fi/WwldLO6o1pbMo9IVdz7pf6jpU1CW9JmNPAQ37F/E+Nh9nc/Blv2fk7el8P9/D35e1cfLPvce/rHE9IYKrRn2denKlPetpWjPrF7n4XVyxtNZZr5u/4y+SO318BQqQ7KrT2oPfF5q/NXzi+qsyL6T9GkZJywle64Uqu9c1GouHRrxPqcOfL4cmOr7rufX5PJnMP01zyM/1vS/+pF6Mlx8enfLjLdkXdK6ExGFls16U4XyTeUZc1Ga9W3czFhdWt4ZK/wB1cPtM9ErkvqPlxyzXBLj+mVJ9/wCv1+uNiM2vPK1337KftS6subSf9H8r8X3GhttCabrYSaqUJuElvtnGSXuyi8pL8+GTOvareknD4hKnXtQq7rt/spv6sn7PdLzZwvwfy/lw/qFNmbJfEl09Vp3zPp5q0PrPi8LlQxFSEV7l1KH+id4rvsTHRvpdxEcq1CjV6wcqUv8AyTfckYvHWup2QEH0R6UMFWkoTVSg20rzUXC7+tFuy6tJE3TvmjFljW30AEAAAAAAAAAAAAAAAAGBitE0p3dtlvjHLzW41OJ0BNZxtJeT8n+ZJQWZWJpCq2CnH2oSiuDae/kWo5E4nBSVmk096eaNPpHQzedHYT4wk5KL7pK7j5PwNTL1TpaVST3pM+xjHesixj6qoJyrxlQS3ymv2f8AuRvBdzd+hY0Rjo4in21Ozg5NQkndSSdr9M08jTLbXUouE4xnF5OMkpRfRp5NGg0n6OsFXvKCdCTd/Ud4N24wfDpFxNrcyKOKa3kVyfTfo9x2HblGCxEfip5Tf2oPNLpFyIpKLi3FpqSdmrOLXRJ+yup6Ro4tMxtKaJwuKVq9GnU5OUVtLulvXgy9Rp54i+7uX4clzkw6sd+X65Lf49DqWmfRTQneWHrTpN+7NdpT7lukl4sh2kPRzpGlupRrK++lUjfvaqbL8FuL1Gkd7ZLjn0/MRrLn+uJdxWgcXB2nhcSs/wB1Ua8JJWLNPRWIk/Vw9dvkqVR5+CNbNKliEnv/AKPmd39D+lnXwGxJtujVlSu/htGcF4Kdu5I5Jo3UPG1Wv2XZR51Xs8V7qvLnwOr+hjR0qOj9uW+riKlTo0tmlFp8U1SunyaMZ3suMTwAHJoAAAAAfGxtHxxLcqN+LAubaKXVXNGPPA395lieib+/IDNeIj8S8z48TH4l5muloP8AiSLb0B/EfkUbR4yHxLzKXjqfxLzNW9Xf4j8il6t/xPkOw2v06HxI+/TYfEjT/wCHH+8XkfP8OP8AeLyHYbr6ZD4kfPpkPiXmaZ6tv958i3PViX7xeTHYbx46nxnHzRF9L6u4Cq9unVnhKl23PDTjS2m7XdSCTjN5b2rldXVOo91SPzMGvqZiHuqR82BrMVh8dQzpY/B4uN/Zrw7Gpbkp0vVb6tIowOss2mq+Cq05LjTq0K0H3etF+FmU4zUXHX9Vwl9+38zWVtQNIvdGP+5H8y7qabzRmtmCqb8VQhLasoTmoSXR7VsySULSV4SUlzi015o5ZifRrpOW+lTffOD/AJsxKXov0tCW1Tpxpv4oVowfmpF6jTsm00rt5LmVqTOVrUTWF7P/ABeUbWjOttxy3Np3Un1dzd0dWtZX7WOwsfCL/wDUNw0nM52TbySV2+CS3ssYrEQpxdSpOMIJXcpSUYpdW8kRLE+j3SuIioYnSuV72px2F47CjfxM/AeiuEWp1sVVrzW6U1tuP2XUcreA3DTIouekP2dHbp4Z5VMS04SqR4wwydm7q67XJJeztPdOMLQhThGnTiowhFRhFZKMYqyilySRrNH6vwpe/Ul9pr8EbeMbGbdq+gAgAAAAAAAAAAAAAAAAAAAAAPlj6AAPlj6APlhY+gBYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//Z"
+        alt="Burger" />
+    </div>
+    <div class="carousel-item w-78 h-80">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ1zBRFJnyYWSQ-24Q0YSqrPCPGml-EjQZBiQ&usqp=CAU"
+        alt="Product" />
+    </div>
+    <div class="carousel-item w-78 h-80">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmt_2EDCITZcQ3YBuNICUDpNk0DbTpgXbBDg&usqp=CAU"
+        alt="Product" />
+    </div>
+    <div class="carousel-item w-78 h-80">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuNopB5y6q9qFpiXLBqGNKEljBtSHs6c0Zgg&usqp=CAU"
+        alt="Product" />
+    </div>
+    <div class="carousel-item w-78 h-80">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDXmXzMsZZuG-Vfq254INrN-Mgfy9mwSHB5Q&usqp=CAU"
+        alt="Product" />
+    </div>
+    <div class="carousel-item w-78 h-80">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGSiEmFbAD1IxBr8ESZ2DtT4U8DafGq32m8ptkH65NIE3Evos2g8Lm3pljD3zAubXOb20&usqp=CAU"
+        alt="Product" />
+    </div>
+    <div class="carousel-item w-78 h-80">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFbzt3RgYVycqq5LrBvRmMMfTsdavRFQFt4kD_2n-_eA07GYwWND7tkT4XUUpHNMY63-Q&usqp=CAU"
+        alt="Product" />
+    </div>
+    <div class="carousel-item w-78 h-80">
+      <img src="https://i.pinimg.com/originals/34/27/07/3427078fecf554d660612cad5ef2943c.jpg" alt="Product" />
+    </div>
+  </div>
+</body>
+<footer class="bg-gray-800 text-white p-4"><br> <!-- Footer -->
+  <div class="container mx-auto lg:flex lg:justify-between lg:items-center">
+    <!-- Saran -->
+    <div class="w-1/2"><br>
+      <h2 class="text-lg font-semibold mb-2">Criticism & Suggestions</h2>
+      <p class="text-lg">Your feedback means a lot to us. We appreciate every criticism and suggestion you provide. This
+        helps us to continuously improve our services and provide a better experience for you.</p>
+    </div><br>
+
+    <!-- Email -->
+    <div class="w-1/2 lg:text-right sm:text-left">
+      <h2 class="text-lg font-semibold mb-2">Our email contact</h2>
+      <p class="text-lg underline text-blue-400"><a
+          href="https://www.google.com/gmail/about/"><b>testertester@gmail.com</b></a></p>
+    </div>
+  </div>
+</footer>
+<footer class="bg-gray-800">
+  <div class="w-screen-full py-8 mx-3">
+    <div class="sm:flex sm:items-center justify-end right-0">
+      <div class="flex justify-center text-teal-600 sm:justify-start">
+      </div>
+      <p class="mt-5 text-sm text-center text-white lg:mt-0 lg:text-right md:text-right">
+        FreeCopyright &copy; 2024. On Progress Going <br>
+        Source Framework using Tailwindcss plugins Daisyui and ChatGPT 3.5<br>
+        Madeby Bintang Diandra Putra
+      </p>
+    </div>
+  </div>
+</footer>
+</html>
