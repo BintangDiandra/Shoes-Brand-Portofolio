@@ -45,9 +45,3 @@
     const body = document.querySelector('body');
     body.classList.toggle('dark-mode');
   }
-
-
-  const y = 3
-  const x = 4
-  const z = y * x
-  console.log(`Hasil Y kali x adalah = ${z}`)
